@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostProgram_OptionsConan(base.BoostBaseConan):
     name = "boost_program_options"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_program_options"
     lib_short_names = ["program_options"]
     options = {"shared": [True, False]}
